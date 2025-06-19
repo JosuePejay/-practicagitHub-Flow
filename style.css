@@ -1,14 +1,22 @@
-header { 
-text-align: center; 
-background-color: #f0f0f0; 
-padding: 20px; 
-} 
-header img { 
-border-radius: 50%; 
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 0;
 }
+
+header img {
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 3px solid #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 #perfil {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
-  margin: 20px 0;
+  margin: 20px auto; 
+  max-width: 800px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
