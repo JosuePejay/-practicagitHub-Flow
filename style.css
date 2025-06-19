@@ -6,3 +6,25 @@ padding: 20px;
 header img { 
 border-radius: 50%; 
 }
+#proyectos { 
+background-color: #f9f9f9; 
+padding: 20px; 
+} 
+#proyectos ul { 
+list-style-type: none; 
+} 
+#proyectos a { 
+color: #0077cc; 
+}
+#proyectos {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#proyectos ul {
+  list-style-type: none;
+}
+
+#proyectos a {
+  color: #0077cc;
+}
